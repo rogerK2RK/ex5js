@@ -1,9 +1,9 @@
-select, .bx-content, #showCommunes, #get-geoloca, #get-cinema {
+select, .bx-content, #showCommunes, #get-geoloca, #get-cinema, #saveImage, #capturePhoto {
     width: 100%;
     border-radius: 5px;
 }
 
-select, #showCommunes, #get-geoloca, #get-cinema {
+select, #showCommunes, #get-geoloca, #get-cinema, #saveImage, #capturePhoto {
     padding: 10px 20px;
 } 
 
@@ -24,4 +24,26 @@ button, #get-geoloca, #get-cinema {
 #get-cinema {
     background-color: rgb(144, 238, 183);
     margin-top: 15px;
+}
+
+#webcamSelect {
+    width: 250px;
+}
+
+#selectWebcam {
+    padding: 10px 20px;
+    width: 150px;
+}
+
+body {
+    padding: 2% 8%;
+}
+
+.box-with-cam-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bx-ctt-img {
+    width: 45%;
 }
